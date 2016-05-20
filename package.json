@@ -9,6 +9,7 @@
     "80cents"                   : "0.4.24",
     "bower": "1.7.9",
     "gulp": "3.9.1",
+    "gulp-concat"               : "2.6.0",
     "gulp-flatten"              : "0.2.0",
     "gulp-header"               : "1.8.2",
     "gulp-stylus"               : "2.3.1",

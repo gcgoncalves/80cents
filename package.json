@@ -21,7 +21,7 @@
   },
   "scripts" : {
     "start"                     : "node 80cents",
-    "postinstall"               : "bower install"
+    "postinstall"               : "bower cache clean && bower install"
   },
   "engines"                     : { "node": "*"}
 }

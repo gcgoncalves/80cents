@@ -1,0 +1,11 @@
+# -- General Info --------------------------------------------------------------
+type        : production 
+
+# -- Services ------------------------------------------------------------------
+production:   
+  sessions:
+    default:
+      uri: <%= ENV['MONGOLAB_URL'] %>
+      options:
+        skip_version_check: true
+        safe: true

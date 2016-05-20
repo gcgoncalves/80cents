@@ -6,7 +6,7 @@
   "author"                      : "",
   "dependencies" : {
     "coffee-script"             : "1.10.0",
-    "80cents"                   : "0.0.1",
+    "80cents"                   : "0.4.24",
     "bower": "1.7.9",
     "gulp": "3.9.1"
   },

@@ -10,17 +10,6 @@
     "bower": "1.7.9",
     "gulp": "3.9.1"
   },
-  "devDependencies" : {
-    "gulp"                      : "*",
-    "gulp-concat"               : "*",
-    "gulp-flatten"              : "*",
-    "gulp-header"               : "*",
-    "gulp-stylus"               : "*",
-    "gulp-uglify"               : "*",
-    "gulp-util"                 : "*",
-    "gulp-yml"                  : "*",
-    "zenrequest"                : "*"
-  },
   "scripts" : {
     "start"                     : "node 80cents",
     "postinstall"               : "./node_modules/bower/bin/bower cache clean && ./node_modules/bower/bin/bower install && ./node_modules/gulp/bin/gulp.js init"

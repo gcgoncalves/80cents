@@ -1,0 +1,27 @@
+{
+  "name"                        : "80cents.example",
+  "version"                     : "0.0.1",
+  "description"                 : "",
+  "homepage"                    : "http://",
+  "author"                      : "",
+  "dependencies" : {
+    "coffee-script"             : "*",
+    "80cents"                   : "*"
+  },
+  "devDependencies" : {
+    "gulp"                      : "*",
+    "gulp-concat"               : "*",
+    "gulp-flatten"              : "*",
+    "gulp-header"               : "*",
+    "gulp-stylus"               : "*",
+    "gulp-uglify"               : "*",
+    "gulp-util"                 : "*",
+    "gulp-yml"                  : "*",
+    "zenrequest"                : "*"
+  },
+  "scripts" : {
+    "start"                     : "node 80cents",
+    "postinstall"               : "bower install"
+  },
+  "engines"                     : { "node": "*"}
+}

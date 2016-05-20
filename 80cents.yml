@@ -1,0 +1,63 @@
+# -- Environment ---------------------------------------------------------------
+environment: development
+
+# -- Static resources ----------------------------------------------------------
+statics:
+  - url     : /uploads
+    folder  : /uploads
+    maxage  : 3600
+  - url     : /img
+    folder  : /assets/img
+    maxage  : 3600
+  - url     : /css
+    folder  : /assets/css
+    maxage  : 3600
+  - file    : humans.txt
+    folder  : /assets
+    maxage  : 3600
+  - file    : robots.txt
+    folder  : /assets
+    maxage  : 3600
+
+# -- Custom Theme --------------------------------------------------------------
+theme:
+  name      : 80cents.example
+  folder    : /css
+
+# -- Mustache template ---------------------------------------------------------
+mustache:
+  cache: false
+  folder: /mustaches
+
+# -- session -------------------------------------------------------------------
+session:
+  cookie: 80cents
+  domain: ""
+  path  : "/"
+  expire: 604800
+  authorization: authorization
+
+# -- CORS Properties -----------------------------------------------------------
+headers:
+  Access-Control-Allow-Origin: "*"
+  Access-Control-Allow-Credentials: true
+  Access-Control-Allow-Methods: GET,PUT,POST,DELETE,OPTIONS
+  Access-Control-Max-Age: 1
+  Access-Control-Allow-Headers:
+    - Accept
+    - Accept-Version
+    - Content-Length
+    - Content-MD5
+    - Content-Type
+    - Date
+    - Api-Version
+    - Response-Time
+    - Authorization
+  Access-Control-Expose-Headers:
+    - api-version
+    - content-length
+    - content-md5
+    - content-type
+    - date
+    - request-id
+    - response-time

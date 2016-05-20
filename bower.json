@@ -1,0 +1,14 @@
+{
+  "name"                : "80cents.example",
+  "version"             : "0.0.1",
+  "directory"           : "bower_components",
+  "componentsDirectory" : "bower_components",
+  "ignore" : [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies" : {
+    "stylmethods"      : "*"
+  }
+}

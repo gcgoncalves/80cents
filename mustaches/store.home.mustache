@@ -1,0 +1,21 @@
+<article class="bck color slideshow" data-flex="vertical center">
+  <div class="overlay"></div>
+  <h2>Loja Ione</h2>
+  <h4>Ione calçados.</h4>
+</article>
+
+<article>
+  <h3>Choose your style</h3>
+  <nav data-shopio="products" data-flex="horizontal center wrap" class="margin-bottom">
+    {{#collections}}
+    <a href="/collection/{{shortcut}}" class="product highlight" data-flex="vertical center" style="background-image: url(/uploads/{{default_image}});" data-shopio-collection={{id}}>
+      <div data-flex="vertical center">
+        <strong>{{title}}</strong>
+        <span>{{description}}</span>
+      </div>
+    </a>
+    {{/collections}}
+  </nav>
+  <h3 class="margin-top">Featured Products</h3>
+  {{> partial.products}}
+</article>

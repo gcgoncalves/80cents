@@ -1,0 +1,4 @@
+# robots.txt for http://80cents.com
+
+User-agent: *
+Disallow: /app/*

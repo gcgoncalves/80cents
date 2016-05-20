@@ -1,0 +1,19 @@
+/* TEAM */
+Name        : Javi Jimenez
+Site        : http://soyjavi.com
+Twitter     : @soyjavi
+Location    : Bilbao, Spain.
+
+Name        : Catalina Oyaneder
+Site        : http://cataflu.com
+Twitter     : @cataflu
+Location    : Brasilia, Brasil.
+
+/* THANKS */
+Name        : http://80cents.org
+
+/* SITE */
+Last update : 2015/04/21
+Standards   : HTML5, CSS3 & JavaScript.
+Components  : Zen, 80Cents, Atoms, Flexo & jQuery.
+Software    : Atom, CoffeeScript, Stylus & passion.

@@ -25,5 +25,8 @@
     "start"                     : "node 80cents",
     "postinstall"               : "./node_modules/bower/bin/bower cache clean && ./node_modules/bower/bin/bower install && ./node_modules/gulp/bin/gulp.js init"
   },
-  "engines"                     : { "node": "0.10.25"}
+  "engines"                     : { 
+    "node": "0.10.25",
+    "npm": "3.9.2"
+  }
 }

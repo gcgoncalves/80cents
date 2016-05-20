@@ -7,8 +7,8 @@
   "dependencies" : {
     "coffee-script"             : "*",
     "80cents"                   : "*",
-    "bower": "*",
-    "gulp": "*"
+    "bower": "1.7.9",
+    "gulp": "3.9.1"
   },
   "devDependencies" : {
     "gulp"                      : "*",
